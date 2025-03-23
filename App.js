@@ -95,7 +95,7 @@ export default function CricketScoreApp() {
       // Replace with your cricket API endpoint and API key
       const response = await axios.get('https://api.cricapi.com/v1/currentMatches', {
         params: {
-          apikey: '1f3486be-8bb4-41ed-8dcb-70906448dccd', // Replace with your actual API key
+          apikey: '', // Replace with your actual API key
           offset: 0
         }
       });
